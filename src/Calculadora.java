@@ -1,9 +1,17 @@
 public class Calculadora {
-    public int suma(int a, int b) {
+    public int sumar(int a, int b) {
+        return realizarSuma(a, b);
+    }
+
+    public int restar(int a, int b) {
+        return realizarResta(a, b);
+    }
+
+    private int realizarSuma(int a, int b) {
         return a + b;
     }
 
-    public int resta(int a, int b) {
+    private int realizarResta(int a, int b) {
         return a - b;
     }
 }
